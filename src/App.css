@@ -1,0 +1,460 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css");
+
+body {
+  background-color: white;
+  /* background-color: rgb(71 85 105); */
+}
+.navbar {
+  background-color: rgb(30 41 59);
+  /* background-color: white; */
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100%;
+  align-items: center;
+}
+
+.navbar-brand {
+  color: white;
+  font-weight: 600;
+}
+.nav-item a {
+  color: white;
+  /* padding: 10px; */
+}
+.nav-link {
+  padding: 10px;
+}
+.logo {
+  padding: 5px;
+  /* margin-left: 10px; */
+}
+.Home {
+  border-bottom: 2px solid white;
+  font-weight: 700;
+}
+ul {
+  margin-left: 10px;
+}
+.navbar-toggler-icon {
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+.secondul {
+  align-items: end;
+}
+.location {
+  margin-left: 20px;
+  /* border: 2px solid white; */
+  /* border-radius: 5px; */
+  /* padding: 4px; */
+}
+.slider-container {
+  display: flex;
+}
+
+img {
+  height: "180";
+  width: "144";
+}
+.slider-container {
+  width: 100%;
+}
+.mainSlids {
+  display: inline-block; /* Display slides inline */
+  margin-right: 10px; /* Add some margin between slides */
+}
+.TopCard {
+  /* min-height: 70vh; */
+}
+h2 {
+  font-size: 60px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.content {
+  background: rgb(255, 255, 255);
+  padding: 16px;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.dedXvX {
+  background: rgb(255, 255, 255);
+  margin-bottom: 16px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: baseline;
+  align-items: baseline;
+  overflow: hidden;
+}
+.dEoCtT {
+  display: block;
+}
+.bwoZPF {
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: rgba(2, 6, 12, 0.92);
+  overflow: hidden;
+  width: 100%;
+  display: -webkit-box;
+  overflow-wrap: break-word;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.header {
+  font-size: 42px;
+}
+.img {
+  display: flex;
+  margin: 0 auto;
+  /* height: 40vh; */
+  /* width: 80%; */
+  /* height: 20vh; */
+  width: 65%;
+  border-radius: 5%;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+  /* height: 40vh; */
+  border-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.toprestrocard .buttonDelete{
+  /* top: 5%; */
+  /* left: 30%; */
+  background-color: red;
+  left: 10% !important;
+  top: 29% !important;
+  color: white;
+}
+.topright {
+  position: absolute;
+  font-weight: 700;
+  font-size: large;
+  z-index:1;
+  color: red;
+  transition: 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+  border-radius: 5px;
+  top: 5px;
+  right: 16px;
+  font-size: 18px;
+  cursor:pointer;
+}
+
+.description {
+  margin: 20px auto;
+  width: 80%;
+  font-size: 25px;
+  margin: 20px auto;
+}
+.nameOfdish {
+  color: white;
+  font-size: large;
+  font-weight: 500;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  /* padding: 10px; */
+  /* grid-area: 1 / 1 / 5; */
+}
+.AppStore {
+  padding: 14px;
+}
+.footerName {
+  color: white;
+  line-height: 30px;
+  /* border-bottom: 0px; */
+}
+.span-text {
+  padding: 14px;
+  -webkit-font-smoothing: antialiased;
+  font-family: arial, Helvetica Neue, sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.6px;
+  color: rgba(2, 6, 12, 0.75);
+  padding-left: 20px;
+}
+.Footer {
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  min-height: 104px;
+  width: 100%;
+  background-color: rgb(240, 240, 245);
+}
+.swigy {
+  -webkit-font-smoothing: antialiased;
+  font-family: Basis_Grotesque_Pro;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: rgba(255, 255, 255, 0.92);
+}
+.footerbottom {
+  background-color: black;
+  padding: 20px;
+  /* align-items: center; */
+}
+.swiggy-logo {
+  text-align: right;
+  float: right;
+  color: white;
+}
+.swiggytext {
+  padding-left: 15px;
+  -webkit-font-smoothing: antialiased;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: rgba(255, 255, 255, 0.92);
+}
+.swiggy {
+  color: #282c3f;
+}
+.heading-footer {
+  -webkit-font-smoothing: antialiased;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.3px;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.swiggy.swiggy-first {
+  -webkit-font-smoothing: antialiased;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: rgba(255, 255, 255, 0.92);
+}
+.swiggybottom {
+  display: flex;
+  color: white;
+}
+.swiggy.swiggy-bottom {
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.3px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.row > * {
+  display: flex;
+}
+.row col {
+  justify-content: center;
+}
+.filterNav {
+  display: block;
+  margin-right: 8px;
+  white-space: nowrap;
+}
+.VmIce {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-radius: 18px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(226, 226, 231);
+  padding: 8px 12px;
+  width: auto;
+  box-shadow: rgba(2, 6, 12, 0.04) 0px 2px 12px;
+  transition: background-color 0.1s ease-in 0s, border-color 0.1s ease-in 0s,
+    box-shadow 0.1s ease-in 0s, width 0.2s cubic-bezier(0.65, 0, 0.35, 1) 0s;
+}
+.VmIce .contents {
+  display: inline-grid;
+  grid-auto-flow: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  gap: 8px;
+  width: max-content;
+}
+.uxlfx {
+  -webkit-font-smoothing: antialiased;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.3px;
+  color: rgba(2, 6, 12, 0.75);
+}
+
+.card {
+  margin: 2px;
+  align-items: center;
+  /* width: 300px; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.bqOwVh {
+  text-decoration: none;
+  color: inherit;
+  outline: 0px;
+  cursor: pointer;
+}
+.dikhtahe {
+  display: grid;
+  transition: all 0.05s ease 0s;
+  cursor: pointer;
+  gap: 12px;
+  grid-auto-flow: row;
+  justify-content: stretch;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px;
+}
+.cZZEwO {
+  position: relative;
+}
+.cardOruper {
+  /* position: absolute; */
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.cardImageUper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  filter: drop-shadow(rgba(0, 0, 0, 0.1) 0px 2px 8px);
+}
+.cardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sw-restaurant-card-subtext-container {
+  display: flex;
+}
+
+.toprestrocard img {
+  /* width: 200px; */
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  filter: drop-shadow(rgba(0, 0, 0, 0.1) 0px 2px 8px);
+}
+
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  outline: 0px;
+  cursor: pointer;
+  display: block;
+  width: 19.5rem;
+  height: auto;
+}
+.card-container{
+  width: auto;
+}
+
+.card-container img{
+   width: 100%;
+   height: 200px;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+  .navbar-nav {
+    display: none;
+  }
+  .VmIce {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    max-width: 100px;
+  }
+  .filterNav {
+    display: flex;
+    max-width: 100px;
+  }
+  .gHdVYr {
+    max-height: 136px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-top: 34px;
+  }
+  .gHdVYr {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-height: 104px;
+    background-color: rgb(240, 240, 245);
+  }
+  .Footer {
+    width: 100%;
+  }
+  .AppStore img {
+    max-width: 150px;
+  }
+  .span-text {
+    display: flex;
+    font-size: 20px;
+  }
+  .col {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow: auto;
+  }
+  .row > * {
+    /* display: ; */
+    width: 100%;
+  }
+}
+
+@media (min-width: 961px) {
+  .idTEqP {
+    height: 64px;
+    max-width: 208px;
+  }
+}

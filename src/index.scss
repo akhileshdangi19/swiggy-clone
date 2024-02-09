@@ -1,0 +1,31 @@
+ul.slick-dots {
+    bottom: 0;
+    position: relative;
+    margin-top: 0.8rem;
+  
+    & > li {
+      background: $secondary;
+      border-radius: 50%;
+      width: 15px;
+      height: 15px;
+  
+      &.slick-active {
+        background-color: $active;
+      }
+  
+      & > button {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background: transparent;
+        border: none;
+  
+        &:before {
+          content: none;
+        }
+      }
+    }
+  }
